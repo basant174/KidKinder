@@ -1,4 +1,154 @@
-*{
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #666666;
+    text-align: left;
+    font-family: "Nunito", sans-serif !important;
+  }
+  
+  h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    line-height: 1.2;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  #Home .shadow {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  }
+  
+  #Home .container i {
+    color: #00394f !important;
+    font-size: 50px;
+    font-weight: 700;
+  }
+  
+  #Home .container .navbar-brand {
+    color: #17a2b8 !important;
+    font-size: 50px;
+    font-weight: 700;
+  }
+  
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 30px 15px;
+    font-weight: 700;
+    color: #00394f;
+  }
+  
+  #Home span {
+    color: #17a2b8;
+  }
+  
+  #Home .nav-link:hover {
+    color: #17a2b8;
+  }
+  
+  .btn-primary {
+    border-radius: 30px;
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+  }
+  
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #138496;
+    border-color: #117a8b;
+  }
+  
+  #Home .container-fluid {
+    background-color: #17a2b8 !important;
+  }
+  
+  #Home h4 {
+    font-size: 1.5rem;
+    font-family: "Handlee", cursive;
+    font-weight: bold;
+    margin-bottom: 1.5rem !important;
+  }
+  
+  #Home h1 {
+    font-family: "Handlee", cursive;
+    font-weight: 700 !important;
+    font-size: 4.5rem;
+  }
+  
+  #Home .btn-secondary {
+    color: #fff;
+    background-color: #00394f;
+    border-color: #00394f;
+    border-radius: 30px;
+  }
+  
+  #Home .btn-secondary:hover {
+    background-color: #001d29;
+    border-color: #00141c;
+  }
+  
+  #Home img {
+    max-width: 657.4px;
+  }
+  
+  #Home {
+    margin-bottom: 2rem;
+  }
+  
+  section {
+    margin-top: 2rem;
+  }
+  
+  #Home img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    #Home h1 {
+      font-size: 2.5rem;
+    }
+  
+    #Home h4 {
+      font-size: 1.2rem;
+    }
+  
+    .navbar-nav .nav-link {
+      padding: 15px 10px;
+      font-size: 0.9rem;
+    }
+  
+    .btn-primary, .btn-secondary {
+      padding: 10px 20px;
+      font-size: 0.9rem;
+    }
+  
+    #Home .col-lg-6 {
+      text-align: center;
+    }
+  
+    #Home .container-fluid .row {
+      flex-direction: column-reverse;
+    }
+  
+    #Home img {
+      margin-top: 1.5rem;
+    }
+  }
+  
+/* *{
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
@@ -95,7 +245,7 @@ section {
 #Home img {
     max-width: 100%;
     height: auto;
-}
+} */
   /* Section 2 */
 .vip .container {
     width: 76%;

@@ -1,0 +1,391 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #666666;
+    text-align: left;
+    font-family: "Nunito", sans-serif !important;   
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+    line-height: 1.2;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+#Home .shadow{
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15)
+}
+#Home .container i{
+   color: #00394f !important; 
+    font-size:50px ;
+    font-weight:700 ;
+}
+#Home .container .navbar-brand{
+    color: #17a2b8 !important;
+    font-size:50px ;
+    font-weight:700 ;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 30px 15px;
+    font-weight: 700;
+    color: #00394f;
+}
+#Home span{
+    color: #17a2b8;
+}
+#Home .nav-link:hover{
+  color: #17a2b8;   
+}
+
+.btn-primary {
+    border-radius: 30px;
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+.btn-primary:hover{
+    color: #fff;
+    background-color: #138496;
+    border-color: #117a8b;
+}
+#Home .container-fluid{
+    background-color:#17a2b8 !important;
+}
+#Home h4{
+    font-size: 1.5rem;
+    font-family: "Handlee", cursive;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 1.5rem !important;
+}
+#Home h1{
+    font-family: "Handlee", cursive;
+    font-weight: 700 !important;
+    font-size: 4.5rem;
+    line-height: 1.2;
+}
+#Home .btn-secondary {
+    color: #fff;
+    background-color: #00394f;
+    border-color: #00394f;
+    border-radius: 30px;
+}
+#Home .btn-secondary:hover{
+    background-color: #001d29;
+    border-color: #00141c;
+}
+#Home img{
+    max-width: 657.400px;
+}
+#Home {
+    margin-bottom: 2rem;
+}
+section {
+    margin-top: 2rem;
+}
+#Home img {
+    max-width: 100%;
+    height: auto;
+}
+  /* Section 2 */
+.vip .container {
+    width: 76%;
+    margin: auto;
+}
+i{
+    color: #17a2b8;
+    font-weight: 400;
+    font-size: 2.5rem;
+    margin-left: 0;
+}
+.vip .pl-4{
+    padding-left: 1.5rem !important;
+}
+.vip h4{
+    font-size: 1.5rem;
+   font-family: "Handlee", cursive; 
+    color: #00394f;
+    font-weight: bold;
+}
+.vip .shadow-sm {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+.vip .bg-light{
+    background-color: #f8f9fa !important;
+}
+.vip .border-top{
+    border-top: 1px solid #dee2e6 !important;
+}
+/* Section  3 */
+#About .container {
+    width: 76%;
+    margin: auto;
+}
+#About .mb-4{
+    font-size: 2.5rem;
+    font-family: "Handlee", cursive;
+    color: #00394f;
+    font-weight: bold;
+    line-height: 1.2;
+}
+ul li i{
+    color: #17a2b8 !important;
+    font-size: 15px;
+    font-weight: 900 !important;
+    margin-right:  1rem;
+}
+ol, ul {
+    padding-left: 0 !important;
+}
+.section-title{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #17a2b8;
+    position: relative;
+}
+#About .section-title::before{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: #17a2b8;
+    top: 37%;
+    left: 26%;
+}
+/* Section 4 */
+.vip4 .container {
+    width: 76%;
+    margin: auto;
+}
+.vip4 .card-title{
+    margin-bottom: 0.75rem;
+    font-size: 1.5rem;
+    font-family: "Handlee", cursive;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #00394f;
+}
+.border-right{
+    border-right: 1px solid #dee2e6 !important;
+}
+.text-right {
+    text-align: right !important;
+}
+strong{
+    color: #666666;
+    font-weight: bolder;
+}
+/* Section 5 */
+.vip5 .container {
+    width: 76%;
+    margin: auto;
+}
+.vip5 .bg-secondary{
+    background-color: #00394f !important;
+}
+ h1{
+    font-size: 2.5rem;
+    font-family: "Handlee", cursive;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.vip5 .bg-primary{
+    background-color: #17a2b8 !important;
+}
+.btn-secondary {
+    color: #fff;
+    background-color: #00394f;
+    border-color: #00394f;
+}
+.btn-secondary:hover{
+    color: #fff;
+    background-color: #001d29;
+    border-color: #00141c;
+}
+.vip5 .list-inline i {
+    color: #28a745 !important;
+    font-weight: 900;
+}
+.vip5 .section-title::before{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: #17a2b8;
+    top: 37%;
+    left: 20%;
+}
+/* Section 6 */
+#vip6 .container {
+    width: 76%;
+    margin: auto;
+}
+.section-titles {
+    position: relative;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #17a2b8;
+    display: inline-block;
+    padding: 0 20px;
+}
+.section-titles::before, 
+.section-titles::after {
+    content: "";
+    position: absolute; 
+    top: 50%;
+    width: 25%;
+    height: 2px;
+    background: #17a2b8;
+}
+.section-titles::before {
+    left: 0;
+    margin-left: -8%; 
+}
+.section-titles::after {
+    right: 0;
+    margin-right: -8%;
+}
+h1{
+    font-size: 2.5rem;
+    font-family: "Handlee", cursive;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #00394f;
+}
+.team{
+   
+    overflow: hidden;
+}
+.section-titles {
+    position: relative;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #17a2b8;
+    display: inline-block;
+    padding: 0 20px;
+}
+.section-titles::before, 
+.section-titles::after {
+    content: "";
+    position: absolute; 
+    top: 50%;
+    width: 25%;
+    height: 2px;
+    background: #17a2b8;
+}
+.section-titles::before {
+    left: 0;
+    margin-left: -8%; 
+}
+.section-titles::after {
+    right: 0;
+    margin-right: -8%;
+}
+
+/* Section 8 */
+.vip8 .container {
+    width: 76%;
+    margin: auto;
+}
+.vip8 small i{
+    font-size: 12px;
+}
+.vip8 .card-body h4{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-family: "Handlee", cursive;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #00394f;
+}
+.vip8 .card-body p{
+  font-weight: 400;
+    line-height: 1.5;
+    color: #666666;
+}
+small{
+    color: #666666;
+}
+/* footer */
+footer .container-fluid{
+    background-color: #00394f !important;
+}
+footer span{
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700 !important;
+    color: #fff !important;
+}
+.btn-outline-primary{
+    width: 38px;
+    height: 38px;
+    border:1px #117a8b solid;
+    
+    margin-right: 0.5rem !important;
+}
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+.btn-outline-primary:hover .fa-brands {
+    color: #fff;
+}
+footer .rounded-circle i{
+    font-size: 15px;
+}
+footer .text-primary {
+    color: #17a2b8 !important;
+}
+footer .info-footer a:hover{
+    text-decoration: underline;
+}
+footer h3{
+    font-size: 1.75rem;
+    font-family: "Handlee", cursive;
+    font-weight: bold;
+    line-height: 1.2;
+}
+footer .icon-links i{
+    font-size: 27px;
+    padding-right: 1rem;
+}
+footer h5{
+    font-size: 1.25rem;
+    font-family: "Handlee", cursive;
+    font-weight: bold;
+    line-height: 1.2;
+}
+footer .Icons{
+    font-size: 15px;
+    color: #fff;
+    padding-right: 1rem ;
+}
+footer .info{
+    color: #fff;
+    padding-bottom: 0.6rem !important;
+}
+footer .form{
+    padding-top: 0.6rem !important;
+    padding-bottom: 0.6rem !important;
+}
+footer .I-con{
+    color: #17a2b8 !important;
+    font-weight: 700 !important;
+}
+footer .I-con:hover{
+     text-decoration: underline;
+     color: #17a2b8 !important;
+}
+footer .icon-footer:hover{
+    color: #138496 !important;
+}
